@@ -89,7 +89,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/Net/CDP
 %{perl_vendorarch}/Net/CDP/*.pm
 %dir %{perl_vendorarch}/auto/Net/CDP
-%{perl_vendorarch}/auto/Net/CDP/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Net/CDP/*.so
 %{_examplesdir}/%{name}-%{version}
 %{_mandir}/man3/*
